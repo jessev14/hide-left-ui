@@ -1,0 +1,15 @@
+nav#controls {
+    visibility: hidden;
+}
+
+aside#players {
+    visibility: hidden;
+}
+
+nav#navigation {
+    visibility: var(--hide-left);
+}
+
+div#hotbar {
+    visibility: hidden;
+}

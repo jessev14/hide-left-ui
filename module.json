@@ -1,0 +1,29 @@
+{
+    "id": "hide-left-ui",
+    "title": "Hide Left UI",
+    "description": "",
+    "authors": [
+        {
+            "name": "enso",
+            "discord": "enso#0361"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "11"
+    },
+    "esmodules": [
+        "./scripts/hide-left-ui.js"
+    ],
+    "styles": [
+        "./styles/hide-left-ui.css"
+    ],
+    "languages": [],
+    "relationships": {
+    },
+    "flags": {},
+    "url": "",
+    "manifest": "",
+    "download": ""
+}
