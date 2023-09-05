@@ -1,9 +1,9 @@
 nav#controls {
-    visibility: hidden;
+    visibility: var(--hide-left);
 }
 
 aside#players {
-    visibility: hidden;
+    visibility: var(--hide-left);
 }
 
 nav#navigation {
@@ -11,5 +11,5 @@ nav#navigation {
 }
 
 div#hotbar {
-    visibility: hidden;
+    visibility: var(--hide-left);
 }

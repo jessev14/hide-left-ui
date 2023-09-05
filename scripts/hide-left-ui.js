@@ -11,6 +11,21 @@ Hooks.once('init', () => {
         filePicker: true,
         requiresReload: true
     });
+
+    game.keybindings.register(moduleID, 'hideUI', {
+        name: 'Hide UI',
+        editable: [
+            {
+                key: "KeyH"
+            }
+        ],
+        onDown: () => {
+            const r = document.querySelector(':root');
+            const visiblity = r.style.getPropertyValue('--hide-left') === 'visible' ? 'hidden' : 'visible';
+            r.style.setProperty('--hide-left', visiblity);
+        },
+        restricted: true
+    });
 });
 
 Hooks.once('ready', () => {
